@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Ported legacy CRA code from the cloned site (kept byte-identical on purpose):
+    "src/components/sites/**",
+    "src/lib/sites/**",
   ]),
 ]);
 
